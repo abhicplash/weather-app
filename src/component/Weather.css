@@ -1,0 +1,40 @@
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(53, 9, 9, 0.1);
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid grey;
+}
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  border-start-start-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search-icon {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+@media (max-width: 426px) {
+  .container {
+    width: 250px;
+  }
+  .cityInput {
+    width: 150px;
+  }
+}

@@ -1,0 +1,66 @@
+.image {
+  height: 170px;
+  margin: 10px;
+  text-align: center;
+}
+.image img {
+  width: 140px;
+  height: 140px;
+}
+.temp,
+.location,
+.country {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+.temp {
+  font-weight: 700;
+  font-size: 22px;
+}
+.cordinates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  background-color: grey;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.cordinates div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cordinates div span {
+  font-size: 15px;
+}
+.windspeed,
+.humidity-percentage,
+.cordinates div span:nth-child(2) {
+  /* color: gray; */
+  font-size: 18px;
+  font-weight: 600;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.element {
+  text-align: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
