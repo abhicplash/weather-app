@@ -60,9 +60,12 @@
   height: 35px;
   width: 20px;
   font-size: 25px;
+  color: #E9F3F1;
+
 }
 .humiicon {
   font-size: 35px;
+  color: #E9F3F1;
 }
 .data-container {
   display: flex;
@@ -73,11 +76,14 @@
   text-align: center;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
+
 .data {
+  /* border: 1px solid; */
+  /* text-align: right; */
   display: flex;
   flex-direction: column;
-  /* color:#FE6261 */
+  color:#E9F3F1
 }
