@@ -4,7 +4,12 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: gray;
+  background: linear-gradient(to right bottom,#03878F,red);
+
+  /* background-color: #27868c; */
+
+  /* background:linear-gradient(90deg,#27868c,#47b8c3); */
+  /* background-color: #E9F3F1; */
   display: flex;
   justify-content: center;
   align-items: center;

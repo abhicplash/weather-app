@@ -1,16 +1,24 @@
 .container {
-  width: 350px;
+  width: 300px;
   padding: 20px;
-  background-color: #fff;
+  /* background-color: #03878F; */
+  /* background: linear-gradient(to right bottom,#03878F,red); */
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(53, 9, 9, 0.1);
+  /* background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(53, 9, 9, 0.1); */
+  background: rgba(255, 255, 255, 0.1); /* Transparent white */
+  backdrop-filter: blur(10px); /* Blurring effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 .input-container {
   width: 100%;
   display: flex;
   align-items: center;
   border-radius: 8px;
-  border: 2px solid grey;
+  
+  border: 2px solid #fff;
+  /* border: 2px solid #FE6261; */
 }
 .cityInput {
   flex: 1;
@@ -19,8 +27,9 @@
   font-size: 16px;
   outline: none;
   padding: 10px;
-  border-start-start-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-start-start-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #fff;
 }
 .search-icon {
   cursor: pointer;
@@ -29,6 +38,9 @@
   display: flex;
   align-items: center;
   margin: 5px;
+  color: #E9F9F1;
+  /* background-color: #03878F; */
+
 }
 @media (max-width: 426px) {
   .container {

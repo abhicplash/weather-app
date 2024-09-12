@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import "./WeatherDetails.css";
 import { FaWind } from "react-icons/fa6";
-import clearIcon from "../Assets/clear.png";
-import cloudIcon from "../Assets/cloud.png";
-import drizzleIcon from "../Assets/drizzle.png";
-import rainIcon from "../Assets/rain.png";
-import snowIcon from "../Assets/snow.png";
-import humidityIcon from "../Assets/humidity.png";
+import { WiHumidity } from "react-icons/wi";
 
 const WeatherDetails = ({
   icon,
@@ -38,7 +33,7 @@ const WeatherDetails = ({
       </div>
       <div className="data-container">
         <div className="element">
-          <img src={humidityIcon} alt="humidity" className="icon" />
+          <WiHumidity className="humiicon" />
           <div className="data">
             <div className="humidity-percentage">{humidity}%</div>
             <div className="humidity">Humidity</div>

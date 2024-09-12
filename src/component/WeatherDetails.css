@@ -1,19 +1,23 @@
 .image {
-  height: 170px;
-  margin: 10px;
+  /* height: 170px; */
+  /* margin: 10px; */
   text-align: center;
 }
 .image img {
-  width: 140px;
-  height: 140px;
+  /* border: 1px solid; */
+  width: 110px;
 }
 .temp,
 .location,
 .country {
   margin-top: 5px;
   font-size: 20px;
-  color: #333;
+  color: #e9f9f1;
   text-align: center;
+}
+.location {
+  font-size: 40px;
+  font-weight: 800;
 }
 .temp {
   font-weight: 700;
@@ -23,11 +27,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 100px;
   font-size: 16px;
   font-weight: 500;
   width: 100%;
-  background-color: grey;
+  color: #e9f9f1;
+  /* background-color: #e9f9f1; */
+  background: rgba(255, 255, 255, 0.1); /* Transparent white */
+  backdrop-filter: blur(10px); /* Blurring effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* color: #E9F9F1; */
+  /* background-color: #03878F; */
   padding: 10px 0;
   margin-top: 10px;
 }
@@ -43,13 +53,16 @@
 .windspeed,
 .humidity-percentage,
 .cordinates div span:nth-child(2) {
-  /* color: gray; */
   font-size: 18px;
   font-weight: 600;
 }
 .icon {
-  height: 20px;
+  height: 35px;
   width: 20px;
+  font-size: 25px;
+}
+.humiicon {
+  font-size: 35px;
 }
 .data-container {
   display: flex;
@@ -58,9 +71,13 @@
 }
 .element {
   text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .data {
   display: flex;
   flex-direction: column;
+  /* color:#FE6261 */
 }
