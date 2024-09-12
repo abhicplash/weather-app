@@ -31,10 +31,10 @@
   font-size: 16px;
   font-weight: 500;
   width: 100%;
-  color: #e9f9f1;
+  color: #03878f;
   /* background-color: #e9f9f1; */
-  background: rgba(255, 255, 255, 0.1); /* Transparent white */
-  backdrop-filter: blur(10px); /* Blurring effect */
+  background: #e9f3f1c0;
+  backdrop-filter: blur(10px); 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   /* color: #E9F9F1; */
   /* background-color: #03878F; */
@@ -46,6 +46,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .cordinates div span {
   font-size: 15px;
